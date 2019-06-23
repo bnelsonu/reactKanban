@@ -1,0 +1,78 @@
+
+
+.wrapper{
+    padding: 0 0 2% 0;
+    width: 100%;
+    display:table;
+    }
+    
+    .backlog{
+    display:inline-block;
+    width:25%;
+    text-align:left;
+    color:brown;
+    vertical-align: top;
+    padding-left: 30px;
+    padding-top: 20px;
+    }
+    
+    .todo{
+    display:inline-block;
+    text-align:left;
+    width:25%;
+    color:green;
+    vertical-align: top;
+    padding-top: 20px;
+    }
+
+    .ongoing{
+        display:inline-block;
+        text-align:left;
+        width:25%;
+        color:orange;
+        vertical-align: top;
+        padding-top: 20px;
+
+    }
+
+    .done{
+        display:inline-block;
+        text-align:left;
+        width:25%;
+        color:purple;
+        vertical-align: top;
+        padding-top: 20px;
+    }
+
+
+    .hidden{
+        display: none;
+    }
+
+    .fechas-creacion{
+        display: inline-block;
+        font-size: 12px;
+        text-align: right;
+        padding-left: 20px;
+    }
+
+    .fecha-expira{
+        display: inline-block;
+        font-size: 12px;
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    .div-btn-agregar{
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+
+    .btn-agregar{margin-bottom: 2px;}
+
+    .btn-borrar{float: right;}
+
+    .btn-editar{ margin-left: 25px;}
+
+    .btn-estado{float: left; padding-right: 10px;}
+
